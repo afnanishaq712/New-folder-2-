@@ -107,10 +107,10 @@ function editData(button) {
   header.innerHTML = "Edit row of: " + dataId;
 }
 
-function updateRowNumbers() {
-  let table = document.getElementById("dataTable");
-  for (let i = 1; i < table.rows.length; i++) {
-    table.rows[i].cells[0].innerHTML = i;
-  }
-}
+// function updateRowNumbers() {
+//   let table = document.getElementById("dataTable");
+//   for (let i = 1; i < table.rows.length; i++) {
+//     table.rows[i].cells[0].innerHTML = i;
+//   }
+// }
 
