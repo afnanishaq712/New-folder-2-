@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inserting row</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2 id="header">ROW: INSERTING</h2>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th id="action">Action</th>
+            </tr>
+        </thead>
+    </table>
+    <div>
+        <input type="text" id="name" placeholder="Enter name" required>
+        <!-- <input type="text" id="category" placeholder="Enter category"> -->
+        <select name="category" id="category" required>
+            <option value="">Select a category</option>
+            <option value="Gold">Gold</option>
+            <option value="Silver">Silver</option>
+            <option value="Platinum">Platinum</option>
+        </select>
+        <button onclick="save()" id="btn">Save</button>
+       
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
